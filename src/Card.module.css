@@ -1,0 +1,26 @@
+.card{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    max-width: 800px;
+    padding: 20px;
+    margin-top: 50px;
+    margin: 0 auto;
+}
+.card h1{
+    color: #005CFF;;
+    font-size: 25px;
+}
+.card p{
+    color: black;
+    font-size: 15px;
+
+}
+.avatar img{
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+    border: 2px solid #005CFF;
+}
