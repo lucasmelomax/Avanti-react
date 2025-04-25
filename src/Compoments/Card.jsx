@@ -3,8 +3,9 @@ import styles from "./Card.module.css";
 import Error from './Error'
 
 
-const Card = ({avatar_url, name, bio, error, data}) => {
+const Card = ({avatar_url, name, bio, error, loading}) => {
 
+  if(loading) return <div className='carregando'></div>
   if(error) return <Error error={error} />
   return (
     <div className={styles.card}>

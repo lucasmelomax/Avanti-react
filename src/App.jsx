@@ -1,10 +1,11 @@
 import React from 'react';
-import Perfil from './perfil';
+import Perfil from './Compoments/Perfil';
+import { BrowserRouter } from 'react-router-dom';
 
 const App = () => {
-  return <div>
+  return <BrowserRouter>
     <Perfil />
-  </div>;
+  </BrowserRouter>;
 };
 
 export default App;
